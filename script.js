@@ -1,5 +1,10 @@
+const body = document.querySelector('.body');
 const container = document.querySelector('.container');
 
+const button = document.createElement('button');
+button.classList.add('button');
+button.textContent = 'Grid Size';
+body.appendChild(button);
 
 for (let i = 0; i < 16; i++) {
     const squares = document.createElement('div');
